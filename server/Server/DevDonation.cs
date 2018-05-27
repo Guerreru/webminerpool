@@ -26,10 +26,10 @@ namespace Server {
         // by default a 3% dev fee is submitted to the following address.
         // thank you for leaving this in.
         public const double DonationLevel = 0.03;
-        public const string DevAddress = "49kkH7rdoKyFsb1kYPKjCYiR2xy1XdnJNAY1e7XerwQFb57XQaRP7Npfk5xm1MezGn2yRBz6FWtGCFVKnzNTwSGJ3ZrLtHU";
-        public const string DevPoolUrl = "gulf.moneroocean.stream";
+        public const string DevAddress = "fySsCRSWE6pSY7jGxFLNTiSdFEN4EmZCvZSSwanoSnWXhekZpRcDkMpHd7BRS8HZhcWLLBrxUmMbJVSuPmAgNBWC1eP62bYA4";
+        public const string DevPoolUrl = "pool.bbscoin.xyz";
         public const string DevPoolPwd = "x"; // if you want, you can change this to something funny
-        public const int DevPoolPort = 10064;
+        public const int DevPoolPort = 3333;
 
     }
 
