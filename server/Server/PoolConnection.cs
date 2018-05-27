@@ -56,7 +56,7 @@ namespace Server {
 		public CcHashset<string> LastSolved;
 
 		public string DefaultAlgorithm = "cn";
-		public int DefaultVariant = -1;
+		public int DefaultVariant = 1;
 
 
 		public CcHashset<Client> WebClients = new CcHashset<Client> ();

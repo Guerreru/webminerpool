@@ -247,7 +247,7 @@ namespace Server {
                 DevJob = (client == ourself)
             };
 
-            if (!int.TryParse (msg["variant"].GetString (), out ji.Variant)) { ji.Variant = -1; }
+        if (!int.TryParse (msg["variant"].GetString (), out ji.Variant)) { ji.Variant = 1; }
 
             jobInfos.TryAdd (jobId, ji); // Todo: We can combine these two datastructures
             jobQueue.Enqueue (jobId);
@@ -429,7 +429,7 @@ namespace Server {
                 DevDonation.DevPoolUrl, DevDonation.DevPoolPort, DevDonation.DevAddress, DevDonation.DevPoolPwd);
 
             ourself.PoolConnection.DefaultAlgorithm = "cn";
-            ourself.PoolConnection.DefaultVariant = -1;
+            ourself.PoolConnection.DefaultVariant = 1;
         }
 
         private static bool CheckLibHash (out Exception ex) {

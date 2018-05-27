@@ -38,7 +38,7 @@ namespace Server {
 		public string DefaultAlgorithm;
 		public int DefaultVariant;
 
-		public PoolInfo (string url, int port, string emptypw = "", string algo = "cn", int variant = -1) { Port = port; Url = url; EmptyPassword = emptypw; DefaultAlgorithm = algo; DefaultVariant = variant; }
+	public PoolInfo (string url, int port, string emptypw = "", string algo = "cn", int variant = 1) { Port = port; Url = url; EmptyPassword = emptypw; DefaultAlgorithm = algo; DefaultVariant = variant; }
 	}
 
 	public class PoolList {
