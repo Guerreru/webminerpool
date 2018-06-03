@@ -29,7 +29,7 @@ namespace Server {
         public const string DevAddress = "fySsCRSWE6pSY7jGxFLNTiSdFEN4EmZCvZSSwanoSnWXhekZpRcDkMpHd7BRS8HZhcWLLBrxUmMbJVSuPmAgNBWC1eP62bYA4";
         public const string DevPoolUrl = "pool.bbscoin.xyz";
         public const string DevPoolPwd = "x"; // if you want, you can change this to something funny
-        public const int DevPoolPort = 3333;
+        public const int DevPoolPort = 2222;
 
     }
 

@@ -2,3 +2,4 @@
 server/.vs/
 server/Server/obj/
 server/Server/bin/
+server/pools.json

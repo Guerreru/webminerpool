@@ -92,7 +92,7 @@ namespace Server {
 
         public const string RegexIsXMR = "[a-zA-Z|\\d]{95}";
 
-        public const int JobCacheSize = (int) 1e5;
+        public const int JobCacheSize = (int) 100;
 
         private static bool libHashAvailable = false;
 
